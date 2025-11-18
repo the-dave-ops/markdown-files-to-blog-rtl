@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>כסף כסף - הבלוג | {{TITLE}}</title>
+    <meta name="description" content="{{DESCRIPTION}}">
+    <meta name="keywords" content="{{KEYWORDS}}">
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1><a href="/">כסף כסף - הבלוג</a></h1>
+            <p class="subtitle">בכסף, ידע זה עושר</p>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="https://kesef-kesef.com/calculators">מחשבונים</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="main-content">
+        <div class="container">
+            {{CONTENT}}
+        </div>
+    </main>
+    
+    <footer class="site-footer">
+        <div class="container">
+            {{TAGS_CLOUD}}
+            <p>&copy; 2024 בלוג. נבנה בפשטות.</p>
+        </div>
+    </footer>
+    <script>
+        function toggleCategories() {
+            const menu = document.getElementById('categoriesMenu');
+            if (menu) {
+                menu.classList.toggle('active');
+            }
+        }
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const menu = document.getElementById('categoriesMenu');
+            const toggle = document.querySelector('.categories-toggle');
+            if (menu && toggle && !menu.contains(event.target) && !toggle.contains(event.target)) {
+                menu.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
