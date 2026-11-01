@@ -23,12 +23,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/rtl-blog-generator.git"
+    "url": "https://github.com/the-dave-ops/markdown-files-to-blog-rtl.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/rtl-blog-generator/issues"
+    "url": "https://github.com/the-dave-ops/markdown-files-to-blog-rtl/issues"
   },
-  "homepage": "https://github.com/yourusername/rtl-blog-generator#readme",
+  "homepage": "https://github.com/the-dave-ops/markdown-files-to-blog-rtl#readme",
   "dependencies": {
     "marked": "^11.1.1",
     "front-matter": "^4.0.2"

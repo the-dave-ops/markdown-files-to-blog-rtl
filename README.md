@@ -1,5 +1,12 @@
 # RTL Blog Site Generator
 
+<p align="center">
+  <a href="https://github.com/the-dave-ops/markdown-files-to-blog-rtl/actions/workflows/ci.yml"><img src="https://github.com/the-dave-ops/markdown-files-to-blog-rtl/actions/workflows/ci.yml/badge.svg" alt="CI Status" /></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License" /></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg" alt="Node.js Version" /></a>
+  <a href="./SECURITY.md"><img src="https://img.shields.io/badge/security-policy-blueviolet.svg" alt="Security Policy" /></a>
+</p>
+
 A simple, fast, and elegant static blog generator built with Node.js. Designed specifically for RTL (Right-to-Left) languages like Hebrew and Arabic, but can be adapted for any language.
 
 ## Features
@@ -20,8 +27,17 @@ A simple, fast, and elegant static blog generator built with Node.js. Designed s
 ### Blog Post
 ![Post Example](images/post-example.png)
 
+### Category Page
+![Category Page](images/category-page.png)
+
+### Tag Page
+![Tag Page](images/tag-page.png)
+
 ### Footer with Tags
 ![Footer Example](images/footer-example.png)
+
+### Mobile View
+![Mobile View](images/mobile-view.png)
 
 ## Quick Start
 
@@ -34,8 +50,8 @@ A simple, fast, and elegant static blog generator built with Node.js. Designed s
 
 1. Clone this repository:
 ```bash
-git clone <your-repo-url>
-cd blog-app-for-github
+git clone https://github.com/the-dave-ops/markdown-files-to-blog-rtl.git
+cd markdown-files-to-blog-rtl
 ```
 
 2. Install dependencies:
@@ -409,14 +425,14 @@ You can customize `nginx.conf` to fit your specific needs.
 
 Check the `content/` directory for an example post that demonstrates the required format.
 
+## Community & Contributing
+
+We welcome contributions of all kinds! Please read our [CONTRIBUTING.md](./CONTRIBUTING.md) guide before submitting pull requests.
+
+- **Found a bug?** Open an issue using the [Bug Report template](https://github.com/the-dave-ops/markdown-files-to-blog-rtl/issues/new?template=bug_report.yml).
+- **Have an idea?** Suggest an enhancement via [Feature Request](https://github.com/the-dave-ops/markdown-files-to-blog-rtl/issues/new?template=feature_request.yml).
+- **Security issue?** Follow our confidential [Security Policy](./SECURITY.md).
+
 ## License
 
-MIT License - feel free to use this for any project!
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## Support
-
-If you encounter any issues or have questions, please open an issue on GitHub.
+[MIT License](./LICENSE) © 2025 RTL Blog Site Generator Contributors.

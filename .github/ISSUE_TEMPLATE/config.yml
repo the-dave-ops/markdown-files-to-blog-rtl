@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Vulnerabilities
+    url: https://github.com/the-dave-ops/markdown-files-to-blog-rtl/security/policy
+    about: Please report security vulnerabilities privately.
+  - name: Ask a Question / Discussions
+    url: https://github.com/the-dave-ops/markdown-files-to-blog-rtl/discussions
+    about: Ask questions, share your blog setups, or discuss ideas with the community.

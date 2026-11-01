@@ -292,8 +292,8 @@ function generateIndexHTML(posts, allCategories, allTags) {
   const postsList = generatePostsListHTML(posts);
   const indexHTML = indexTemplate.replace('{{POSTS}}', postsList);
   
-  const description = 'כסף כסף - מחשבונים פיננסיים ומדריכים פיננסיים. מחשבון ריבית דריבית, מחשבון משכנתא, מחשבון ברוטו נטו ועוד';
-  const keywords = 'מחשבון ריבית דריבית, מחשבון משכנתא, מחשבון ברוטו נטו, מחשבונים פיננסיים, פנסיה, השקעות, תכנון פיננסי';
+  const description = 'בלוג סטטי שנבנה עם RTL Blog Generator - מאמרים ומדריכים ב-Markdown';
+  const keywords = 'בלוג, מאמרים, מדריכים, markdown, static site';
   
   return layoutTemplate
     .replace('{{TITLE}}', 'דף הבית')
